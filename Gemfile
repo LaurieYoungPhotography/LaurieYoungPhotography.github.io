@@ -12,3 +12,4 @@ gem "middleman-livereload", "~> 3.3.0"
 gem 'bitters'
 gem 'bourbon'
 gem 'neat'
+gem 'middleman-gh-pages'
