@@ -3,11 +3,41 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-     <%= stylesheet_link_tag "all" %>
-    <title>Blog Title<%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <%= stylesheet_link_tag "all" %>
+    <%= javascript_include_tag "all" %>
+    <title>Laurie Young Photography %></title>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
   </head>
   <body>
+<div class="header">
+      <div class="menuIcon">
+        <a href="#menuExpand">Menu</a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Menu Option 1</a></li>
+          <li><a href="#">Menu Option 2</a></li>
+          <li><a href="#">Menu Option 3</a></li>
+          <li><a href="#">Menu Option 4</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+
+       <hr/>
+
+
+
+
+
+
+
+
+
+
+Stuff below here doesn't count (for now)
 
     <div id="main" role="main">
       <%= yield %>
