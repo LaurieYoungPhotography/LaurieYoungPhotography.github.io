@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="../stylesheets/all.css" rel="stylesheet" />
+    <script src="../javascripts/all.js"></script>
+    <title>Laurie Young Photography %></title>
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+      </div>
+
+      <div class="menuIcon">
+        <a href="#menuExpand">Menu</a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Menu Option 1</a></li>
+          <li><a href="#">Menu Option 2</a></li>
+          <li><a href="#">Menu Option 3</a></li>
+          <li><a href="#">Menu Option 4</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+
+       <hr/>
+
+
+
+
+
+
+
+
+
+
+Stuff below here doesn't count (for now)
+
+    <div id="main" role="main">
+      <?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/blog</id>
+  <link href="http://blog.url.com/blog"/>
+  <link href="http://blog.url.com/blog/feed.xml" rel="self"/>
+  <updated>2012-01-01T00:00:00+00:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>Example Article</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2012/01/01/example-article.html"/>
+    <id>http://blog.url.com/blog/2012/01/01/example-article.html</id>
+    <published>2012-01-01T00:00:00+00:00</published>
+    <updated>2015-10-01T13:42:55+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!&lt;/p&gt;
+</content>
+  </entry>
+</feed>
+
+    </div>
+
+    <aside>
+      <h2>Recent Articles</h2>
+      <ol>
+          <li><a href="2012/01/01/example-article.html">Example Article</a> <span>Jan  1</span></li>
+      </ol>
+
+      <h2>Tags</h2>
+      <ol>
+          <li><a href="tags/example.html">example (1)</a></li>
+      </ol>
+
+      <h2>By Year</h2>
+      <ol>
+          <li><a href="2012.html">2012 (1)</a></li>
+      </ol>
+    </aside>
+  </body>
+</html>
