@@ -1,8 +1,13 @@
+@import "icomoon_fonts";
+
+
 @charset "utf-8";
+
 
 @import "bourbon";
 @import "base/base";   /* Bitters needs to be imported before Neat */
 @import "neat";
+
 
 body{
   margin: 0;
@@ -33,16 +38,19 @@ body{
     }
   ul {
     li {
+      font-family: 'Abel', sans-serif;
+      font-variant: small-caps;
+      text-transform: uppercase;
+  
       display: block;
       width: 100%;
       background: #000;
-      border-top:1px solid #4d4d4d;
-      &:hover {
+      padding: 0.5em;
+      &:hover, &:focus {
         background: #999;
       }
       a {
         color: #fff;
-        text-shadow: #848484 0px 1px 2px;
         padding: 10px 0;
         width: 100%;
         }
@@ -50,6 +58,9 @@ body{
     }
   }
   .menuIcon {
+    font-family: 'Abel', sans-serif;
+    font-variant: small-caps;
+    text-transform: lowercase;
     display: inline-block;
     width: 100%;
     text-align: center;
@@ -57,7 +68,27 @@ body{
     height: 1.3em;
     padding-bottom: 1.5em;
     background-color: black;
-    a { color: white;}
+    &:hover, &:focus {
+      background: #999;
+    }
+    
+    a { 
+      color: white;
+      &:after {
+        position: relative;
+        top: 0.1em;
+        left: 0.2em;
+        font-family: 'icomoon';
+      	speak: none;
+      	font-style: normal;
+      	font-weight: normal;
+      	font-variant: normal;
+      	text-transform: none;
+        // line-height: 1.3em;
+        font-size:0.8em;
+      	content: "\e600";
+      }
+    }
   }
 }
 
