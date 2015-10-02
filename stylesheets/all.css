@@ -245,7 +245,37 @@ html {
 body {
   margin: 0; }
 
-/* line 17, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+/* line 16, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+img {
+  display: block; }
+
+/* line 20, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+h2 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 1em; }
+
+/* line 29, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+.projects article {
+  position: relative;
+  margin: 0.2em; }
+  /* line 33, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+  .projects article .project-hover {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 0.5em;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-weight: bold; }
+    /* line 43, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+    .projects article .project-hover h3 {
+      font-family: 'Abel', sans-serif;
+      font-size: 1.5em; }
+
+/* line 53, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
 .header .logo {
   height: 0;
   padding: 0;
@@ -257,7 +287,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-image: url("/images/logo_767px.png"); }
-/* line 28, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+/* line 64, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
 .header .menu {
   max-height: 0;
   overflow: hidden;
@@ -267,13 +297,13 @@ body {
   -webkit-transition: max-height 0.5s;
   -moz-transition: max-height 0.5s;
   transition: max-height 0.5s; }
-  /* line 35, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+  /* line 71, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
   .header .menu.menuOpen {
     max-height: 1000px;
     -webkit-transition: max-height 0.5s;
     -moz-transition: max-height 0.5s;
     transition: max-height 0.5s; }
-  /* line 40, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+  /* line 76, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
   .header .menu ul li {
     font-family: 'Abel', sans-serif;
     font-variant: small-caps;
@@ -282,15 +312,15 @@ body {
     width: 100%;
     background: #000;
     padding: 0.5em; }
-    /* line 49, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+    /* line 85, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
     .header .menu ul li:hover, .header .menu ul li:focus {
       background: #999; }
-    /* line 52, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+    /* line 88, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
     .header .menu ul li a {
       color: #fff;
       padding: 10px 0;
       width: 100%; }
-/* line 60, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+/* line 96, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
 .header .menuIcon {
   font-family: 'Abel', sans-serif;
   font-variant: small-caps;
@@ -302,13 +332,13 @@ body {
   height: 1.3em;
   padding-bottom: 1.5em;
   background-color: black; }
-  /* line 71, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+  /* line 107, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
   .header .menuIcon:hover, .header .menuIcon:focus {
     background: #999; }
-  /* line 75, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+  /* line 111, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
   .header .menuIcon a {
     color: white; }
-    /* line 77, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+    /* line 113, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
     .header .menuIcon a:after {
       position: relative;
       top: 0.1em;
@@ -323,31 +353,31 @@ body {
       content: "\e600"; }
 
 @media only screen and (min-width: 767px) {
-  /* line 99, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+  /* line 135, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
   .header .menu {
     max-height: none; }
-    /* line 101, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+    /* line 137, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
     .header .menu ul {
       padding: 0;
       margin: 0; }
-      /* line 104, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+      /* line 140, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
       .header .menu ul li {
         display: inline;
         list-style: none; }
-  /* line 110, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+  /* line 146, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
   .header .menuIcon {
     display: none;
     background: #000;
     width: 100%;
     text-align: center; }
-    /* line 115, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+    /* line 151, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
     .header .menuIcon:hover {
       background: #999; }
-    /* line 118, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+    /* line 154, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
     .header .menuIcon a {
       width: 100%;
       display: inline-block;
       color: #fff; }
-      /* line 122, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+      /* line 158, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
       .header .menuIcon a img {
         vertical-align: middle; } }
