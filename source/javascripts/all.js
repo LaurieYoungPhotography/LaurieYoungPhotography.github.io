@@ -1,7 +1,7 @@
 //= require jquery-2.1.4
 
 $(function() {
-    $("a[href=#menuExpand]").click(function(e) {
+    $(".menuIcon").click(function(e) {
         $(".menu").toggleClass("menuOpen");
         e.preventDefault();
     });
