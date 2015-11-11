@@ -11,25 +11,40 @@
 
 body{
   margin: 0;
+  font-family: 'Raleway', sans-serif;
 }
+
+h1,h2,h3{
+  font-family: 'Abel', sans-serif;
+  text-align: left;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0.3em 0em;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 0.2em 0em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 0.1em 0em;
+}
+
 
 img {
   display: block;
 }
 
-h2 {
-  font-family: 'Raleway', sans-serif;
-  
-  text-align: center;
-  font-size: 2em;
-  margin-top: 1em;
-}
 
 .projects {
   article {
     position: relative;
     margin: 0.2em;
-    
+
     .project-hover {
       position: absolute;
       bottom: 0px;
@@ -39,12 +54,12 @@ h2 {
       color: black;
       font-family: 'Raleway', sans-serif;
       text-weight: bold;
-      
+
       h3{
         font-family: 'Abel', sans-serif;
         font-size: 1.5em;
       }
-      
+
     }
   }
 }
@@ -54,7 +69,6 @@ h2 {
     height: 0;
     padding: 0; /* remove any pre-existing padding, just in case */
     padding-bottom: 10.1%; /* for a 4:3 aspect ratio */
-    background-image: url(foo.png);
     background-position: center center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -77,7 +91,7 @@ h2 {
       font-family: 'Abel', sans-serif;
       font-variant: small-caps;
       text-transform: uppercase;
-  
+
       display: block;
       width: 100%;
       background: #000;
@@ -107,8 +121,8 @@ h2 {
     &:hover, &:focus {
       background: #999;
     }
-    
-    a { 
+
+    a {
       color: white;
       &:after {
         position: relative;
@@ -132,6 +146,13 @@ h2 {
 @media only screen and (min-width: 767px) {
 
   .header {
+    @include clearfix;
+    .logo  {
+      background-position: top left;
+      background-size: 500px;
+      width: 500px;
+      float: left;
+    }
     .menu {
       max-height: none;
       ul {
@@ -145,20 +166,6 @@ h2 {
     }
     .menuIcon {
       display: none;
-      background: #000;
-      width: 100%;
-      text-align: center;
-      &:hover {
-        background: #999;
-      }
-      a {
-        width: 100%;
-        display: inline-block;
-        color: #fff;
-        img {
-          vertical-align: middle;
-        }
-      }
     }
   }
 }
