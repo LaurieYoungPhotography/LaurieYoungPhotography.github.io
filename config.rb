@@ -7,6 +7,7 @@
 activate :blog do |blog|
   blog.name = "projects"
   blog.prefix = "projects"
+  blog.permalink = "{title}"
 end
 
 activate :blog do |blog|
