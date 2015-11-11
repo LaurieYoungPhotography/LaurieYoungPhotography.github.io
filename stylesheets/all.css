@@ -4,7 +4,7 @@
   src: url("/fonts/icomoon/fonts/icomoon.eot?-ec624b#iefix") format("embedded-opentype"), url("/fonts/icomoon/fonts/icomoon.ttf?-ec624b") format("truetype"), url("/fonts/icomoon/fonts/icomoon.woff?-ec624b") format("woff"), url("/fonts/icomoon/fonts/icomoon.svg?-ec624b#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* line 12, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/icomoon_fonts.css */
+/* line 12, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/icomoon_fonts.css */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -17,11 +17,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 26, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/icomoon_fonts.css */
+/* line 26, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/icomoon_fonts.css */
 .icon-menu:before {
   content: "\e600"; }
 
-/* line 1, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_buttons.scss */
+/* line 1, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_buttons.scss */
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   appearance: none;
   background-color: #477dca;
@@ -41,26 +41,26 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   user-select: none;
   vertical-align: middle;
   white-space: nowrap; }
-  /* line 21, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_buttons.scss */
+  /* line 21, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_buttons.scss */
   button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
     background-color: #3964a2;
     color: #fff; }
-  /* line 27, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_buttons.scss */
+  /* line 27, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_buttons.scss */
   button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled {
     cursor: not-allowed;
     opacity: 0.5; }
-    /* line 31, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_buttons.scss */
+    /* line 31, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_buttons.scss */
     button:disabled:hover, input[type="button"]:disabled:hover, input[type="reset"]:disabled:hover, input[type="submit"]:disabled:hover {
       background-color: #477dca; }
 
-/* line 1, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
+/* line 1, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
 fieldset {
   background-color: #f7f7f7;
   border: 1px solid #ddd;
   margin: 0 0 0.75em;
   padding: 1.5em; }
 
-/* line 8, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
+/* line 8, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
 input,
 label,
 select {
@@ -68,18 +68,18 @@ select {
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1em; }
 
-/* line 16, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
+/* line 16, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
 label {
   font-weight: 600;
   margin-bottom: 0.375em; }
-  /* line 20, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
+  /* line 20, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
   label.required::after {
     content: "*"; }
-  /* line 24, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
+  /* line 24, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
   label abbr {
     display: none; }
 
-/* line 29, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
+/* line 29, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea,
 select[multiple=multiple] {
   background-color: #fff;
@@ -93,73 +93,73 @@ select[multiple=multiple] {
   padding: 0.5em;
   transition: border-color 150ms ease;
   width: 100%; }
-  /* line 43, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
+  /* line 43, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
   input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover,
   select[multiple=multiple]:hover {
     border-color: #b1b1b1; }
-  /* line 47, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
+  /* line 47, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
   input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus,
   select[multiple=multiple]:focus {
     border-color: #477dca;
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7);
     outline: none; }
-  /* line 53, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
+  /* line 53, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
   input[type="color"]:disabled, input[type="date"]:disabled, input[type="datetime"]:disabled, input[type="datetime-local"]:disabled, input[type="email"]:disabled, input[type="month"]:disabled, input[type="number"]:disabled, input[type="password"]:disabled, input[type="search"]:disabled, input[type="tel"]:disabled, input[type="text"]:disabled, input[type="time"]:disabled, input[type="url"]:disabled, input[type="week"]:disabled, input:not([type]):disabled, textarea:disabled,
   select[multiple=multiple]:disabled {
     background-color: #f2f2f2;
     cursor: not-allowed; }
-    /* line 57, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
+    /* line 57, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
     input[type="color"]:disabled:hover, input[type="date"]:disabled:hover, input[type="datetime"]:disabled:hover, input[type="datetime-local"]:disabled:hover, input[type="email"]:disabled:hover, input[type="month"]:disabled:hover, input[type="number"]:disabled:hover, input[type="password"]:disabled:hover, input[type="search"]:disabled:hover, input[type="tel"]:disabled:hover, input[type="text"]:disabled:hover, input[type="time"]:disabled:hover, input[type="url"]:disabled:hover, input[type="week"]:disabled:hover, input:not([type]):disabled:hover, textarea:disabled:hover,
     select[multiple=multiple]:disabled:hover {
       border: 1px solid #ddd; }
 
-/* line 63, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
+/* line 63, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
 textarea {
   resize: vertical; }
 
-/* line 67, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
+/* line 67, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
 input[type="search"] {
   appearance: none; }
 
-/* line 71, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
+/* line 71, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
 input[type="checkbox"],
 input[type="radio"] {
   display: inline;
   margin-right: 0.375em; }
-  /* line 76, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
+  /* line 76, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
   input[type="checkbox"] + label,
   input[type="radio"] + label {
     display: inline-block; }
 
-/* line 81, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
+/* line 81, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
 input[type="file"] {
   margin-bottom: 0.75em;
   width: 100%; }
 
-/* line 86, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
+/* line 86, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_forms.scss */
 select {
   margin-bottom: 1.5em;
   max-width: 100%;
   width: auto; }
 
-/* line 1, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_lists.scss */
+/* line 1, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_lists.scss */
 ul,
 ol {
   list-style-type: none;
   margin: 0;
   padding: 0; }
-/* line 20, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_lists.scss */
+/* line 20, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_lists.scss */
 dl {
   margin-bottom: 0.75em; }
-  /* line 23, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_lists.scss */
+  /* line 23, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_lists.scss */
   dl dt {
     font-weight: bold;
     margin-top: 0.75em; }
-  /* line 28, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_lists.scss */
+  /* line 28, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_lists.scss */
   dl dd {
     margin: 0; }
 
-/* line 1, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_tables.scss */
+/* line 1, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_tables.scss */
 table {
   border-collapse: collapse;
   font-feature-settings: "kern", "liga", "tnum";
@@ -167,25 +167,25 @@ table {
   table-layout: fixed;
   width: 100%; }
 
-/* line 9, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_tables.scss */
+/* line 9, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_tables.scss */
 th {
   border-bottom: 1px solid #a6a6a6;
   font-weight: 600;
   padding: 0.75em 0;
   text-align: left; }
 
-/* line 16, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_tables.scss */
+/* line 16, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_tables.scss */
 td {
   border-bottom: 1px solid #ddd;
   padding: 0.75em 0; }
 
-/* line 21, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_tables.scss */
+/* line 21, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_tables.scss */
 tr,
 td,
 th {
   vertical-align: middle; }
 
-/* line 1, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_typography.scss */
+/* line 1, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_typography.scss */
 body {
   color: #333;
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
@@ -193,7 +193,7 @@ body {
   font-size: 1em;
   line-height: 1.5; }
 
-/* line 9, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_typography.scss */
+/* line 9, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_typography.scss */
 h1,
 h2,
 h3,
@@ -205,20 +205,20 @@ h6 {
   line-height: 1.2;
   margin: 0 0 0.75em; }
 
-/* line 21, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_typography.scss */
+/* line 21, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_typography.scss */
 p {
   margin: 0 0 0.75em; }
 
-/* line 25, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_typography.scss */
+/* line 25, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_typography.scss */
 a {
   color: #477dca;
   text-decoration: none;
   transition: color 150ms ease; }
-  /* line 30, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_typography.scss */
+  /* line 30, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_typography.scss */
   a:active, a:focus, a:hover {
     color: #355e98; }
 
-/* line 37, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_typography.scss */
+/* line 37, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_typography.scss */
 hr {
   border-bottom: 1px solid #ddd;
   border-left: 0;
@@ -226,7 +226,7 @@ hr {
   border-top: 0;
   margin: 1.5em 0; }
 
-/* line 45, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_typography.scss */
+/* line 45, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/base/_typography.scss */
 img,
 picture {
   margin: 0;
@@ -241,26 +241,40 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-/* line 12, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+/* line 12, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
 body {
-  margin: 0; }
+  margin: 0;
+  font-family: 'Raleway', sans-serif; }
 
-/* line 16, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+/* line 17, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+h1, h2, h3 {
+  font-family: 'Abel', sans-serif;
+  text-align: left; }
+
+/* line 22, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+h1 {
+  font-size: 3em;
+  margin: 0.3em 0em; }
+
+/* line 27, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+h2 {
+  font-size: 2em;
+  margin: 0.2em 0em; }
+
+/* line 32, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+h3 {
+  font-size: 1.5em;
+  margin: 0.1em 0em; }
+
+/* line 38, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
 img {
   display: block; }
 
-/* line 20, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
-h2 {
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-  font-size: 2em;
-  margin-top: 1em; }
-
-/* line 29, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+/* line 44, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
 .projects article {
   position: relative;
   margin: 0.2em; }
-  /* line 33, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+  /* line 48, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
   .projects article .project-hover {
     position: absolute;
     bottom: 0px;
@@ -270,24 +284,23 @@ h2 {
     color: black;
     font-family: 'Raleway', sans-serif;
     text-weight: bold; }
-    /* line 43, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+    /* line 58, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
     .projects article .project-hover h3 {
       font-family: 'Abel', sans-serif;
       font-size: 1.5em; }
 
-/* line 53, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+/* line 68, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
 .header .logo {
   height: 0;
   padding: 0;
   /* remove any pre-existing padding, just in case */
   padding-bottom: 10.1%;
   /* for a 4:3 aspect ratio */
-  background-image: url(foo.png);
   background-position: center center;
   background-size: 100%;
   background-repeat: no-repeat;
   background-image: url("/images/logo_767px.png"); }
-/* line 64, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+/* line 78, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
 .header .menu {
   max-height: 0;
   overflow: hidden;
@@ -297,13 +310,13 @@ h2 {
   -webkit-transition: max-height 0.5s;
   -moz-transition: max-height 0.5s;
   transition: max-height 0.5s; }
-  /* line 71, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+  /* line 85, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
   .header .menu.menuOpen {
     max-height: 1000px;
     -webkit-transition: max-height 0.5s;
     -moz-transition: max-height 0.5s;
     transition: max-height 0.5s; }
-  /* line 76, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+  /* line 90, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
   .header .menu ul li {
     font-family: 'Abel', sans-serif;
     font-variant: small-caps;
@@ -312,15 +325,15 @@ h2 {
     width: 100%;
     background: #000;
     padding: 0.5em; }
-    /* line 85, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+    /* line 99, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
     .header .menu ul li:hover, .header .menu ul li:focus {
       background: #999; }
-    /* line 88, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+    /* line 102, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
     .header .menu ul li a {
       color: #fff;
       padding: 10px 0;
       width: 100%; }
-/* line 96, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+/* line 110, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
 .header .menuIcon {
   font-family: 'Abel', sans-serif;
   font-variant: small-caps;
@@ -332,13 +345,13 @@ h2 {
   height: 1.3em;
   padding-bottom: 1.5em;
   background-color: black; }
-  /* line 107, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+  /* line 121, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
   .header .menuIcon:hover, .header .menuIcon:focus {
     background: #999; }
-  /* line 111, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+  /* line 125, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
   .header .menuIcon a {
     color: white; }
-    /* line 113, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+    /* line 127, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
     .header .menuIcon a:after {
       position: relative;
       top: 0.1em;
@@ -353,31 +366,28 @@ h2 {
       content: "\e600"; }
 
 @media only screen and (min-width: 767px) {
-  /* line 135, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+  /* line 20, /Users/laurie/.rvm/gems/ruby-2.1.2/gems/bourbon-4.2.5/app/assets/stylesheets/addons/_clearfix.scss */
+  .header::after {
+    clear: both;
+    content: "";
+    display: table; }
+  /* line 150, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+  .header .logo {
+    background-position: top left;
+    background-size: 500px;
+    width: 500px;
+    float: left; }
+  /* line 156, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
   .header .menu {
     max-height: none; }
-    /* line 137, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+    /* line 158, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
     .header .menu ul {
       padding: 0;
       margin: 0; }
-      /* line 140, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+      /* line 161, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
       .header .menu ul li {
         display: inline;
         list-style: none; }
-  /* line 146, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
+  /* line 167, /Users/laurie/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
   .header .menuIcon {
-    display: none;
-    background: #000;
-    width: 100%;
-    text-align: center; }
-    /* line 151, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
-    .header .menuIcon:hover {
-      background: #999; }
-    /* line 154, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
-    .header .menuIcon a {
-      width: 100%;
-      display: inline-block;
-      color: #fff; }
-      /* line 158, /Volumes/Photo HD/Dropbox/dev/LaurieYoungPhotography.github.io/source/stylesheets/all.css.scss */
-      .header .menuIcon a img {
-        vertical-align: middle; } }
+    display: none; } }

@@ -27,23 +27,38 @@
         </ul>
       </div>
     </div>
+    <?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/blog</id>
+  <link href="http://blog.url.com/blog"/>
+  <link href="http://blog.url.com/blog/feed.xml" rel="self"/>
+  <updated>2012-01-01T00:00:00+00:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>Example Article</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2012/01/01/example-article.html"/>
+    <id>http://blog.url.com/blog/2012/01/01/example-article.html</id>
+    <published>2012-01-01T00:00:00+00:00</published>
+    <updated>2015-10-01T13:42:55+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!&lt;/p&gt;
+</content>
+  </entry>
+</feed>
 
-    <section class="projects">
-      <h2>Projects</h2>
-      <article>
-        <img src="/images/project-semley/semley-hero.jpg"/>
-        <div class="project-hover">
-          <h3>The last days of Semley</h3>
-          Magni dolores iusto porro odit eligendi voluptatum voluptas ipsum inventore ut
-        </div>
-      </article>
-      <article>
-        <img src="/images/project-kandq/kandq-hero.jpg"/>
-        <div class="project-hover">
-          <h3>Kings and Queens</h3>
-          Possimus modi explicabo quisquam quas incidunt qui est similique incidunt provident eaque ullam qui
-        </div>
-      </article>
-    </section>
+    <hr/>
+    <h1>H1 Style</h1>
+    <h2>H2 Style</h2>
+    <h3>H3 Style</h3>
+    <p>Delectus sit beatae tempore quibusdam et sit vel architecto iure tempora corrupti. Doloribus deserunt sunt quo vero qui dolor ullam expedita pariatur quis. Repellat ipsa aliquam dignissimos optio cum molestias in in repellat rerum enim sit est incidunt. Quidem dolores explicabo maiores quidem sed sed natus aut rem numquam iure. Nemo laboriosam et ut</p>
+
+
+
   </body>
 </html>
