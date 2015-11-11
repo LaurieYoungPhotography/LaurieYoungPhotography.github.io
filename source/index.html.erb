@@ -1,1 +1,16 @@
-Hello there
+<section class="projects">
+  <h2>Projects</h2>
+  Photo projects
+
+
+  <% blog("projects").articles[0...5].each do |article| %>
+  <article>
+    <img src="<%= article.data[:thumbnail_image] %>"/>
+    <div class="project-hover">
+      <h3><a href="<%= article.url %>"><%= article.title %></h3></a>
+      <%= lorem.sentences 1 %>
+
+    </div>
+  </article>
+  <% end %>
+</section>

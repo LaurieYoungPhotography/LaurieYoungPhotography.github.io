@@ -8,7 +8,7 @@
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag "all" %>
     <title>Laurie Young Photography %></title>
-    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+    <%= feed_tag :atom, "#{blog('blog').options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
   </head>
   <body>
     <div class="header">
@@ -27,49 +27,7 @@
         </ul>
       </div>
     </div>
-
-
-    <section class="projects">
-      <h2>Projects</h2>
-      Photo projects
-      <article>
-        <img src="/images/project-semley/semley-hero.jpg"/>
-        <div class="project-hover">
-          <h3>The last days of Semley</h3>
-          <%= lorem.sentences 1 %>
-        </div>
-      </article>
-      <article>
-        <img src="/images/project-kandq/kandq-hero.jpg"/>
-        <div class="project-hover">
-          <h3>Kings and Queens</h3>
-          <%= lorem.sentences 1 %>
-        </div>
-      </article>
-      <article>
-        <img src="/images/project-dance-competition/dance-competition-hero.jpg"/>
-        <div class="project-hover">
-          <h3>Dance Competitions</h3>
-          <%= lorem.sentences 1 %>
-        </div>
-      </article>
-    </section>
-
-    <section>
-      <h2>Highlights</h2>
-      A selection of my best individual photos.
-    </section>
-
-    <section>
-      <h2>Collaborate with me</h2>
-      Various ways you can work with me on a project.
-    </section>
-
-    <section>
-      <h2>Blog</h2>
-      A place for my writing.
-    </section>
-
+    <%= yield %>
     <hr/>
     <h1>H1 Style</h1>
     <h2>H2 Style</h2>

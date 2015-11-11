@@ -5,7 +5,13 @@
 # Time.zone = "UTC"
 
 activate :blog do |blog|
+  blog.name = "projects"
+  blog.prefix = "projects"
+end
+
+activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
+  blog.name = "blog"
   blog.prefix = "blog"
 
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
